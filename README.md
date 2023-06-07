@@ -73,9 +73,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Development
 
+## Generate Favicon
 Generate the Favicon by link
 [https://favicon.io/]
 
+## Install taiwindcss
 Install Tailwind css through the link below
 [https://tailwindcss.com/docs/installation]
+
+## Install react router and dom
+`npm i react-router react-router-dom`
+create the pages folder in src. Create the Home.jsx file in pages
+Apply the route for Home.jsx in App.js
+
 
