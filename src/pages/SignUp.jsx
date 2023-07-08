@@ -42,7 +42,7 @@ const SignUp = () => {
 
       await setDoc(doc(db, "users", user.uid), formDataCopy)
       toast.success("Successfully Signed Up!")
-      navigate('/')
+      navigate('/sign-in')
 
     } catch (error) {
       toast.error("Something went wrong with Registration!");
