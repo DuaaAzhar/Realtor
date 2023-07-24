@@ -36,6 +36,7 @@ export default function Profile(){
         });
 
         //Update name in firestore
+        
         const docRef = doc(db, "users", auth.currentUser.uid)
         await updateDoc(docRef, {
           name,
